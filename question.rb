@@ -1,5 +1,7 @@
 class Question 
   
+  attr_reader :answer
+
   def initialize
     @value1 = rand(1..20)
     @value2 = rand(1..20)
@@ -18,3 +20,4 @@ end
 
 q = Question.new
 puts q.random_question
+puts q.answer
