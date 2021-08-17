@@ -12,7 +12,3 @@ class Player
   end 
 
 end
-
-# p = Player.new('L. Ron')
-# puts p.name 
-# puts p.lives

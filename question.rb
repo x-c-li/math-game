@@ -18,7 +18,3 @@ class Question
   end
 
 end
-
-q = Question.new
-puts q.random_question
-puts q.answer

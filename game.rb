@@ -1,11 +1,3 @@
-# Game: 
-#   role: keep track of which player goes and takes in input
-#   needs: 
-#     player names (2)
-#     keeps track of input/output
-#     method: run game (loop to alternate between players)
-#       have conditionals in loop 
-
 class Game
 
   attr_accessor 
@@ -41,15 +33,3 @@ class Game
   end 
 
 end
-
-# ------NEW TURN-------
-# P1, P2 lives 
-# CORRECT!
-# INCORRECT! 
-# Player 1 wins with a score of score 
-# Good bye!
-
-
-# p = Player.new('L. Ron')
-# puts p.name 
-# puts p.lives
