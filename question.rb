@@ -16,7 +16,5 @@ class Question
 
 end
 
-p = Question.new
-# puts p.random_number
-# puts p.random_operation
-puts p.random_question
+q = Question.new
+puts q.random_question
