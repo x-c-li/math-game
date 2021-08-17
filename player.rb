@@ -1,6 +1,6 @@
 class Player
 
-  attr_accessor :name :lives#reads and writes values
+  attr_accessor :name, :lives#reads and writes values
 
   def initialize(name)
     @name = name
@@ -13,6 +13,6 @@ class Player
 
 end
 
-p = Player.new('L. Ron')
-puts p.name 
-puts p.lives
+# p = Player.new('L. Ron')
+# puts p.name 
+# puts p.lives
