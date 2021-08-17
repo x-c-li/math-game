@@ -1,18 +1,18 @@
 class Question 
-
-  def random_number 
-    rand(1..20)
-  end 
-
-  def random_operation 
-    operations = ['plus', 'minus', 'times', 'divided by']
-    index = rand(0..3)
-    operations[index]
-  end 
+  
+  def initialize
+    @value1 = rand(1..20)
+    @value2 = rand(1..20)
+    @answer = @value1 + @value2
+  end
 
   def random_question
-    puts "What is: #{random_number} #{random_operation} #{random_number}"
+    puts "What is: #{@value1} plus #{@value2}"
   end 
+
+  def validate(input)
+    input == @answer
+  end
 
 end
 
